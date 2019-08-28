@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [
+         "core/app.js"
+      ]
+   },
+   "browser_action": {
+      "default_title": "__MSG_title__",
+      "default_popup": "popup/popup.html"
+   },
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "32": "img/icon-32.png",
+      "48": "img/icon-48.png"
+   },
+   "default_locale": "en",
+   "description": "__MSG_desc__",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "*://*/*",
+      "proxy",
+      "storage",
+      "tabs"
+   ],
+   "version": "1.0.0"
+}
