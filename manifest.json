@@ -1,4 +1,15 @@
 {
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "description": "__MSG_desc__",
+   "default_locale": "ru",
+   "browser_action": {
+      "default_title": "__MSG_title__"
+   },
+   "version": "1.0.0",
+   "icons": {
+      "128": "icons/active-128.png"
+   },
    "background": {
       "scripts": [
          "core/proxy.js",
@@ -6,22 +17,7 @@
          "core/app.js"
       ]
    },
-
-   "icons": {
-      "128": "icons/active-128.png"
-   },
-
-   "default_locale": "en",
-   "browser_action": {
-      "default_title": "__MSG_title__"
-   },
-   "description": "__MSG_desc__",
-   "name": "__MSG_name__",
-
    "permissions": [
       "proxy"
-   ],
-
-   "manifest_version": 2,
-   "version": "1.1"
+   ]
 }
